@@ -6,10 +6,10 @@ import { ContactPageComponent } from './shared/pages/contact-page/contact-page.c
 
 //Definir las routes
 const routes:Routes=[
-  {
-    path: '',
-    component:HomePageComponent
-  },
+  // {
+  //   path: '',
+  //   component:HomePageComponent
+  // },
   {
     path: 'about',
     component:AboutPageComponent
@@ -24,7 +24,7 @@ const routes:Routes=[
   },
   {
     path:'**',
-    redirectTo:''
+    redirectTo:'countries'
   }
 ];
 
