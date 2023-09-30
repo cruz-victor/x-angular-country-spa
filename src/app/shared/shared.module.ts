@@ -7,15 +7,14 @@ import { RouterModule } from '@angular/router';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 
-
-
 @NgModule({
   declarations: [
     HomePageComponent,
-    AboutPageComponent,
-    SidebarComponent,
     ContactPageComponent,
-    SearchBoxComponent
+    AboutPageComponent,
+
+    SearchBoxComponent,
+    SidebarComponent
   ],
   imports: [
     CommonModule,
@@ -23,10 +22,11 @@ import { SearchBoxComponent } from './components/search-box/search-box.component
   ],
   exports: [
     HomePageComponent,
-    AboutPageComponent,
-    SidebarComponent,
     ContactPageComponent,
-    SearchBoxComponent
+    AboutPageComponent,
+
+    SearchBoxComponent,
+    SidebarComponent
   ]
 
 })

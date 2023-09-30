@@ -2,8 +2,7 @@
 <hr>
 <div class="row">
   <div class="col">
-    <!-- SearchBox -->
-    <shared-search-box [placeholder]="placeholder" (onValueEmitter)="searchByCapital($event)" ></shared-search-box>
+    <shared-search-box [placeholder]="placeholder" (onValueEmitter)="searchByCapital($event)"></shared-search-box>
   </div>
 </div>
 
@@ -11,6 +10,5 @@
   <div class="col">
     <hr>
     <countries-country-table [countries]="countries"></countries-country-table>
-
   </div>
 </div>
